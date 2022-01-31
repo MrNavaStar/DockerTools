@@ -8,7 +8,7 @@ RUN apk add git
 COPY . /app
 WORKDIR /app
 RUN git init -b master
-RUN git remote add origin https://github.com/MrNavaStar/GaryBot.git
+RUN git remote add origin https://github.com/MrNavaStar/DockerTools.git
 RUN chmod +x update.sh
 
 ENTRYPOINT ["python3", "main.py"]
