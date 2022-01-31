@@ -1,4 +1,4 @@
-# MrNavaStar's DockerTools
+# DockerTools
 
 A collection of random docker utilities I've made that would probably be considered cursed.
 
